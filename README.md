@@ -1,5 +1,5 @@
 # RRT Implementation in 2D/3D
-An implementation of RRT for 2D cases, such as with differential drive robots or cars.
+An implementation of RRT for 2D cases, such as with differential drive robots or cars, and an implementation for 3D cases for e.g. robtotic arms. The 2D implementation is more general and constructed as a class, that is easier to modify to work for new cases. The 3D implementation was created for a specific case, and therefore it has to be altered a lot to be used in different cases.
 
 ## Short about RRT
 Rapidly-exploring Random Trees (RRT) is a motion planning for robotics and other automated systems. The basic idea behind RRT is to construct a tree data structure by repeatedly sampling random configurations and adding them to the tree, while also connecting nearby configurations to form edges. RRT is designed to efficiently explore high-dimensional configuration spaces, and can quickly generate feasible paths through complex environments. The algorithm is widely used in autonomous vehicle navigation, industrial automation, and other robotics applications. The Algorithm can be altered a bit to suit the end users specific case, where e.g. goal bias can be used to speed up the search. 
