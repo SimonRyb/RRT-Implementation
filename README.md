@@ -1,4 +1,4 @@
-# RRT Implementation in 2D
+# RRT Implementation in 2D/3D
 An implementation of RRT for 2D cases, such as with differential drive robots or cars.
 
 ## Short about RRT
@@ -7,5 +7,9 @@ Rapidly-exploring Random Trees (RRT) is a motion planning for robotics and other
 ## The implementation 
 The implementation of RRT is within the file "..." and is constructed as a class for easy implementation in other projects, where the class can be imported into another program and then be called from there. The Implementation is made for Holonomic robots and there is therefore not a steering function implemented within the code, to use the class for non-holonomic robots a steering function could be implemented within the class where the new node is created.
 
-## How to use
+## Difference between 3D and 2D
+There are two implementations for RRT in this repository, where there are only small differences, I would recomend to check through both files to see the differences
 
+
+## How to use
+COMMING
